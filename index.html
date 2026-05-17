@@ -628,13 +628,58 @@ footer{padding:3rem;text-align:center;border-top:1px solid rgba(255,255,255,.05)
         <button class="exp-tab on" role="tab" aria-selected="true" data-p="ep0"><span class="etco">Saayam For All</span><span class="etdt">Aug 2025 &ndash; Present</span></button>
         <button class="exp-tab" role="tab" aria-selected="false" data-p="ep1"><span class="etco">University at Buffalo</span><span class="etdt">Aug 2024 &ndash; May 2025</span></button>
         <button class="exp-tab" role="tab" aria-selected="false" data-p="ep2"><span class="etco">Kalam Dream Labs</span><span class="etdt">Jan 2022 &ndash; Dec 2023</span></button>
-        <button class="exp-tab" role="tab" aria-selected="false" data-p="ep3"><span class="etco">Kalam &mdash; Intern</span><span class="etdt">Mar 2021 &ndash; Nov 2021</span></button>
+        <button class="exp-tab" role="tab" aria-selected="false" data-p="ep3"><span class="etco">Techtion Innovation</span><span class="etdt">Feb 2021 &ndash; Dec 2021</span></button>
       </div>
       <div class="exp-pnls">
-        <div class="ep gc on" id="ep0" role="tabpanel"><div class="ep-inner"><div class="ep-role">Full Stack Developer</div><div class="ep-co">Saayam For All</div><div class="ep-mt"><span class="ep-d">Aug 2025 &ndash; Present</span><span class="ep-l">San Jose, CA &middot; Remote</span></div><div class="stk"><span class="st">TypeScript</span><span class="st">Python</span><span class="st">Golang</span><span class="st">React/RN</span><span class="st">GraphQL</span><span class="st">Kafka</span><span class="st">AWS EKS</span><span class="st">PostgreSQL</span><span class="st">CloudWatch</span><span class="st">OpenAI API</span></div><ul class="bls"><li>Built Golang microservices on AWS EKS with PostgreSQL and Kafka, improving reliability for <strong>50K+ platform users</strong>.</li><li>Async Python matching workflow using OpenAI APIs &mdash; <strong>reduced assignment time by 45%</strong>.</li><li>Engineered React and React Native features via GraphQL, reusing 6 core modules across web and mobile.</li><li>Raised <strong>service test coverage to ~75%</strong> via idempotent event handling and CloudWatch monitoring.</li></ul></div></div>
-        <div class="ep gc" id="ep1" role="tabpanel"><div class="ep-inner"><div class="ep-role">Graduate Student Assistant</div><div class="ep-co">University at Buffalo &ndash; SUNY</div><div class="ep-mt"><span class="ep-d">Aug 2024 &ndash; May 2025</span><span class="ep-l">Buffalo, NY</span></div><div class="stk"><span class="st">PyTorch</span><span class="st">CUDA</span><span class="st">HuggingFace</span><span class="st">MONAI</span><span class="st">FastAPI</span><span class="st">Docker</span><span class="st">AWS EC2/S3</span><span class="st">SageMaker</span><span class="st">MLflow</span></div><ul class="bls"><li>Fine-tuned ViT and Swin Transformer segmentation models, <strong>cutting training time by 50%</strong> on limited VRAM.</li><li>Containerized inference service on FastAPI + Docker/EC2 with request batching for medical imaging.</li><li>Multi-terabyte imaging pipeline on AWS S3, automating training via SageMaker Pipelines.</li></ul></div></div>
-        <div class="ep gc" id="ep2" role="tabpanel"><div class="ep-inner"><div class="ep-role">Software Development Engineer</div><div class="ep-co">Kalam Dream Labs</div><div class="ep-mt"><span class="ep-d">Jan 2022 &ndash; Dec 2023</span><span class="ep-l">Visakhapatnam, India</span></div><div class="stk"><span class="st">Python</span><span class="st">FastAPI</span><span class="st">Angular</span><span class="st">TypeScript</span><span class="st">PostgreSQL</span><span class="st">Redis</span><span class="st">Docker</span><span class="st">GitHub Actions</span><span class="st">Cloudflare</span><span class="st">AWS RDS</span></div><ul class="bls"><li>Angular + Cloudflare edge caching &mdash; <strong>initial load under 2 seconds</strong> in low-bandwidth regions.</li><li>FastAPI REST APIs + ETL pipelines across <strong>300K+ user platform</strong>.</li><li>CI/CD automation &mdash; <strong>release turnaround from 1 day to under 5 hours</strong>.</li></ul></div></div>
-        <div class="ep gc" id="ep3" role="tabpanel"><div class="ep-inner"><div class="ep-role">SDE &ndash; Intern</div><div class="ep-co">Kalam Dream Labs</div><div class="ep-mt"><span class="ep-d">Mar 2021 &ndash; Nov 2021</span><span class="ep-l">Visakhapatnam, India</span></div><div class="stk"><span class="st">C#</span><span class="st">.NET Core</span><span class="st">ASP.NET API</span><span class="st">Kafka</span><span class="st">Redis</span><span class="st">React</span><span class="st">Redux</span><span class="st">PostgreSQL</span><span class="st">AWS EC2</span></div><ul class="bls"><li>ASP.NET Core appointment microservice on AWS EC2 &mdash; <strong>99% availability</strong>.</li><li>Kafka event streaming decoupling appointment, billing, and notification workflows.</li><li>React admin dashboard with Redux and Swagger API documentation.</li></ul></div></div>
+        <div class="ep gc on" id="ep0" role="tabpanel"><div class="ep-inner">
+          <div class="ep-role">Full Stack Developer</div>
+          <div class="ep-co">Saayam For All</div>
+          <div class="ep-mt"><span class="ep-d">Aug 2025 &ndash; Present</span><span class="ep-l">Remote</span></div>
+          <div class="stk"><span class="st">Python</span><span class="st">LangChain</span><span class="st">Java</span><span class="st">Node.js</span><span class="st">TypeScript</span><span class="st">React</span><span class="st">TailwindCSS</span><span class="st">Redis</span><span class="st">AWS EKS</span><span class="st">Spring Boot 3</span><span class="st">Socket.io</span><span class="st">GraphQL</span></div>
+          <ul class="bls">
+            <li>Developed an <strong>agentic RAG pipeline</strong> in Python and LangChain to automate request-to-responder matching, cutting assignment time from <strong>6 to 3.5 hours</strong>, verified via Aurora SQL logs.</li>
+            <li>Collaborated on 2 Java 17 / Spring Boot 3 microservices on AWS EKS, configuring <strong>HPA at 70% CPU</strong> threshold scaling 2&ndash;8 pods, hard-capped to prevent Aurora connection pool exhaustion, monitored via CloudWatch.</li>
+            <li>Co-built a real-time <strong>Node.js / Socket.io notification service</strong> for instant match alerts, using Redis Pub/Sub to sync WebSocket state across auto-scaled EKS pods.</li>
+            <li>Abstracted <strong>6 shared TypeScript modules</strong> for React and React Native using GraphQL and Tailwind CSS, eliminating <strong>30% duplicated UI code</strong>, audited via jscpd.</li>
+          </ul>
+        </div></div>
+
+        <div class="ep gc" id="ep1" role="tabpanel"><div class="ep-inner">
+          <div class="ep-role">Graduate Student Assistant</div>
+          <div class="ep-co">University at Buffalo &ndash; SUNY</div>
+          <div class="ep-mt"><span class="ep-d">Aug 2024 &ndash; May 2025</span><span class="ep-l">Buffalo, NY</span></div>
+          <div class="stk"><span class="st">Python</span><span class="st">PyTorch</span><span class="st">CUDA</span><span class="st">HuggingFace</span><span class="st">AWS SageMaker</span><span class="st">AWS S3</span><span class="st">Docker</span><span class="st">FastAPI</span><span class="st">Nginx</span><span class="st">MLflow</span></div>
+          <ul class="bls">
+            <li>Built an <strong>AWS S3 + SageMaker FastFile Mode pipeline</strong> to stream <strong>3.2TB</strong> of video data directly into training jobs, eliminating local I/O as the primary throughput bottleneck.</li>
+            <li>Fine-tuned ViT-based models on Kinetics-700 with <strong>Mixed Precision and Gradient Checkpointing</strong>, achieving <strong>2&times; training throughput</strong> improvement.</li>
+            <li>Deployed a video inference service with FastAPI and Docker on EC2, fronted by Nginx with request batching to sustain <strong>20 concurrent 720p streams under 500ms</strong> per request (frame decode + inference + response).</li>
+          </ul>
+        </div></div>
+
+        <div class="ep gc" id="ep2" role="tabpanel"><div class="ep-inner">
+          <div class="ep-role">Software Development Engineer</div>
+          <div class="ep-co">Kalam Dream Labs</div>
+          <div class="ep-mt"><span class="ep-d">Jan 2022 &ndash; Dec 2023</span><span class="ep-l">Visakhapatnam, India</span></div>
+          <div class="stk"><span class="st">Python</span><span class="st">TypeScript</span><span class="st">FastAPI</span><span class="st">Angular</span><span class="st">Ansible</span><span class="st">Vert.x</span><span class="st">PostgreSQL</span><span class="st">Redis</span><span class="st">Docker</span><span class="st">AWS</span><span class="st">Cloudflare</span><span class="st">GitHub Actions</span></div>
+          <ul class="bls">
+            <li>Engineered <strong>Python ETL pipelines</strong> to sync Moodle LMS data into PostgreSQL using idempotent writes and row-count reconciliation between source and destination.</li>
+            <li>Resolved recurring <strong>DB connection saturation</strong> during peak exam-result traffic by tuning PostgreSQL on Amazon RDS and implementing Redis caching on hot read paths.</li>
+            <li>Developed <strong>async auth services in Java and Vert.x</strong> using verticles and the event bus for non-blocking session validation across <strong>300K+ registered users</strong>.</li>
+            <li>Built an <strong>Angular SPA</strong> with route-level lazy loading and Cloudflare edge caching, achieving <strong>sub-2-second LCP</strong> via real-user monitoring across low-bandwidth regions.</li>
+            <li>Automated CI/CD using GitHub Actions, Docker, and Ansible &mdash; cutting <strong>PR merge to production from 24 hours to 5 hours</strong>.</li>
+          </ul>
+        </div></div>
+
+        <div class="ep gc" id="ep3" role="tabpanel"><div class="ep-inner">
+          <div class="ep-role">Software Development Engineer</div>
+          <div class="ep-co">Techtion Innovation</div>
+          <div class="ep-mt"><span class="ep-d">Feb 2021 &ndash; Dec 2021</span><span class="ep-l">Hyderabad, India</span></div>
+          <div class="stk"><span class="st">Go</span><span class="st">Python</span><span class="st">FastAPI</span><span class="st">gRPC</span><span class="st">Protobuf</span><span class="st">Apache Kafka</span><span class="st">MQTT</span><span class="st">PostgreSQL</span><span class="st">Docker</span><span class="st">AWS EC2</span><span class="st">AWS ECS</span></div>
+          <ul class="bls">
+            <li>Built <strong>Go microservices</strong> for dispatch and charging workflows on a <strong>100+ drone hub platform</strong>, with Kafka for async events and gRPC/Protobuf for synchronous RPC.</li>
+            <li>Designed a real-time <strong>MQTT + FastAPI telemetry pipeline</strong> on AWS ECS, ingesting <strong>2,500+ messages/sec</strong> of battery and GPS data into PostgreSQL, with HTTP routes for fleet-tracking clients.</li>
+          </ul>
+        </div></div>
       </div>
     </div>
   </div>
